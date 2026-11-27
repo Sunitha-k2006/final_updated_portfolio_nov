@@ -49,7 +49,7 @@ export default function Hero() {
           </motion.p>
           <motion.div custom={5} variants={fade} initial="hidden" animate="show"
             className="flex flex-wrap gap-4 mb-8">
-            <a href="/resume.pdf" download
+            <a href="https://drive.google.com/file/d/1vC83R38-JPyShDY9Rt6N1-58vGILpWnV/view?usp=drive_link" target="_blank" rel="noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-600 to-violet-700 hover:from-violet-500 hover:to-violet-600 text-white rounded-lg font-medium transition-all duration-200 shadow-lg shadow-violet-900/30 text-sm">
               <Download size={16} /> Download Resume
             </a>
